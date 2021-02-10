@@ -8,9 +8,9 @@
 
 #define E0_AUTO_FAN_PIN 7
 */
-
+//#define STRING_CONFIG_H_AUTHOR "Francesco Scar."
 #define STRING_CONFIG_H_AUTHOR "Francesco Scar.\n\r\n\r(see more at https://github.com/francesco-scar/3d-conf/tree/main/001)\n\r\n\rIn the repository you can find the source code of this configured firmware and the Slic3r settings suggested (by me) for this printer. Check the commit date which corresponds to the distribution date\n\r\n\r"
-#define STRING_DISTRIBUTION_DATE "2020-01-21"
+#define STRING_DISTRIBUTION_DATE "2020-02-09"
 
 /**
    Marlin 3D Printer Firmware
@@ -672,7 +672,7 @@
 
 // Safety: The probe needs time to recognize the command.
 //         Minimum command delay (ms). Enable and increase if needed.
-//#define BLTOUCH_DELAY 500
+#define BLTOUCH_DELAY 350   // BEFORE-DEFAULT COMMENTED 500
 
 /**
    Settings for BLTOUCH Classic 1.2, 1.3 or BLTouch Smart 1.0, 2.0, 2.2, 3.0, 3.1, and most clones:
