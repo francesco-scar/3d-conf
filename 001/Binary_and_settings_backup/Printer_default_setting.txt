@@ -1,0 +1,100 @@
+Connecting...
+start
+Printer is now online.
+Info:External Reset
+Echo:MK4duo_4.3.6
+Echo:Last Updated: Aug 15 2018 18:24:33 | Author: (none, default config)
+Echo:Compiled: Aug 15 2018
+Echo:Free Memory: 4702 PlannerBufferBytes: 1456
+MKV50 stored settings retrieved (308 bytes; crc -30413)
+Config:
+  G21    ; Units in (mm)
+Config:Steps per unit:
+Config:  M92 X100.000 Y100.000 Z400.000 T0 E95.000
+Config:Maximum feedrates (units/s):
+Config:  M203 X400.000 Y400.000 Z4.000 T0 E25.000
+Config:Maximum Acceleration (units/s2):
+Config:  M201 X9000 Y5000 Z50 T0 E10000
+Config:Acceleration (units/s2): P<print_accel> V<travel_accel> T* R<retract_accel>:
+Config:  M204 P1000.000 V1000.000 T0 R1000.000
+Config:Advanced variables: B<min_segment_time_us> S<min_feedrate> V<min_travel_feedrate>:
+Config: M205 B20000 S0.000 V0.000
+Config:Jerk: X<max_xy_jerk> Z<max_z_jerk> T* E<max_e_jerk>:
+Config: M205 X10.000 Y10.000 Z0.300 T0 E5.000
+Config:Heater Sensor parameters: H<Heater> P<Pin> A<R25> B<BetaK> C<Steinhart-Hart C> R<Pullup> L<ADC low offset> O<ADC high offset>:
+Config:  M305 H0 P13 A100000.0 B4092.0 C0.0000000000 R4700.0 L0 O0
+Config:Heater parameters: H<Heater> P<Pin> A<Pid Drive Min> B<Pid Drive Max> C<Pid Max> L<Min Temp> O<Max Temp> U<Use Pid 0-1> I<Hardware Inverted 0-1>:
+Config:  M306 H0 P10 A40 B230 C255 L5 O275 U1 I0
+Config:Heater PID parameters: H<Heater> P<Proportional> I<Integral> D<Derivative>:
+Config:  M301 H0 P10.88 I0.81 D36.43
+Config:Heater Sensor parameters: H<Heater> P<Pin> A<R25> B<BetaK> C<Steinhart-Hart C> R<Pullup> L<ADC low offset> O<ADC high offset>:
+Config:  M305 H-1 P14 A100000.0 B4092.0 C0.0000000000 R4700.0 L0 O0
+Config:Heater parameters: H<Heater> P<Pin> A<Pid Drive Min> B<Pid Drive Max> C<Pid Max> L<Min Temp> O<Max Temp> U<Use Pid 0-1> I<Hardware Inverted 0-1>:
+Config:  M306 H-1 P8 A80 B255 C255 L5 O150 U0 I0
+Config:Fans: P<Fan> U<Pin> L<Min Speed> F<Freq> I<Hardware Inverted 0-1> H<Auto mode> :
+Config:  M106 P0 U9 L0 F250 I0
+Config:Stepper Direction:
+Config:  M569 X1 Y1 Z0 T0 E0
+Config:Stepper driver control:
+Config:  M569 D50 P0 R400000
+Config:Stepper driver current (mA):
+Config:  M906 X800 Y800
+Config:Hybrid Threshold:
+Config:  M913 X100 Y100
+Setting hotend temperature to 210.000000 degrees Celsius.
+Loading file: /home/test_reti/Scaricati/3DBenchy.gcode
+Loaded /home/test_reti/Scaricati/3DBenchy.gcode, 179302 lines
+7446.35mm of filament used in this print
+The print goes:
+- from 0.00 mm to 161.62 mm in X and is 161.62 mm wide
+- from 0.00 mm to 148.95 mm in Y and is 148.95 mm deep
+- from 0.00 mm to 48.05 mm in Z and is 48.05 mm high
+Estimated duration: 184 layers, 2:34:53
+Print started at: 15:34:12
+
+
+
+Settings2:
+
+
+Info:External Reset
+Echo:MK4duo_4.3.6
+Echo:Last Updated: Aug 15 2018 18:24:33 | Author: (none, default config)
+Echo:Compiled: Aug 15 2018
+Echo:Free Memory: 4702 PlannerBufferBytes: 1456
+MKV50 stored settings retrieved (308 bytes; crc -30413)
+Config:
+  G21    ; Units in (mm)
+Config:Steps per unit:
+Config:  M92 X100.000 Y100.000 Z400.000 T0 E95.000
+Config:Maximum feedrates (units/s):
+Config:  M203 X400.000 Y400.000 Z4.000 T0 E25.000
+Config:Maximum Acceleration (units/s2):
+Config:  M201 X9000 Y5000 Z50 T0 E10000
+Config:Acceleration (units/s2): P<print_accel> V<travel_accel> T* R<retract_accel>:
+Config:  M204 P1000.000 V1000.000 T0 R1000.000
+Config:Advanced variables: B<min_segment_time_us> S<min_feedrate> V<min_travel_feedrate>:
+Config: M205 B20000 S0.000 V0.000
+Config:Jerk: X<max_xy_jerk> Z<max_z_jerk> T* E<max_e_jerk>:
+Config: M205 X10.000 Y10.000 Z0.300 T0 E5.000
+Config:Heater Sensor parameters: H<Heater> P<Pin> A<R25> B<BetaK> C<Steinhart-Hart C> R<Pullup> L<ADC low offset> O<ADC high offset>:
+Config:  M305 H0 P13 A100000.0 B4092.0 C0.0000000000 R4700.0 L0 O0
+Config:Heater parameters: H<Heater> P<Pin> A<Pid Drive Min> B<Pid Drive Max> C<Pid Max> L<Min Temp> O<Max Temp> U<Use Pid 0-1> I<Hardware Inverted 0-1>:
+Config:  M306 H0 P10 A40 B230 C255 L5 O275 U1 I0
+Config:Heater PID parameters: H<Heater> P<Proportional> I<Integral> D<Derivative>:
+Config:  M301 H0 P10.88 I0.81 D36.43
+Config:Heater Sensor parameters: H<Heater> P<Pin> A<R25> B<BetaK> C<Steinhart-Hart C> R<Pullup> L<ADC low offset> O<ADC high offset>:
+Config:  M305 H-1 P14 A100000.0 B4092.0 C0.0000000000 R4700.0 L0 O0
+Config:Heater parameters: H<Heater> P<Pin> A<Pid Drive Min> B<Pid Drive Max> C<Pid Max> L<Min Temp> O<Max Temp> U<Use Pid 0-1> I<Hardware Inverted 0-1>:
+Config:  M306 H-1 P8 A80 B255 C255 L5 O150 U0 I0
+Config:Fans: P<Fan> U<Pin> L<Min Speed> F<Freq> I<Hardware Inverted 0-1> H<Auto mode> :
+Config:  M106 P0 U9 L0 F250 I0
+Config:Stepper Direction:
+Config:  M569 X1 Y1 Z0 T0 E0
+Config:Stepper driver control:
+Config:  M569 D50 P0 R400000
+Config:Stepper driver current (mA):
+Config:  M906 X800 Y800
+Config:Hybrid Threshold:
+Config:  M913 X100 Y100
+
