@@ -10,7 +10,7 @@
 */
 //#define STRING_CONFIG_H_AUTHOR "Francesco Scar."
 #define STRING_CONFIG_H_AUTHOR "Francesco Scar.\n\r\n\r(see more at https://github.com/francesco-scar/3d-conf/tree/main/001)\n\r\n\rIn the repository you can find the source code of this configured firmware and the Slic3r settings suggested (by me) for this printer. Check the commit date which corresponds to the distribution date\n\r\n\r"
-#define STRING_DISTRIBUTION_DATE "2020-02-09"
+#define STRING_DISTRIBUTION_DATE "2020-02-12"
 
 /**
    Marlin 3D Printer Firmware

@@ -703,7 +703,7 @@
 
 // Enable this feature if all enabled endstop pins are interrupt-capable.
 // This will remove the need to poll the interrupt pins, saving many CPU cycles.
-//#define ENDSTOP_INTERRUPTS_FEATURE              // BEFORE-DEFAULT COMMENTED
+//#define ENDSTOP_INTERRUPTS_FEATURE
 
 /**
  * Endstop Noise Threshold
@@ -1000,7 +1000,7 @@
 #define PROBING_MARGIN 20      // BEFORE-DEFAULT 10
 
 // X and Y axis travel speed (mm/min) between probes
-#define XY_PROBE_SPEED (133*60)    // BEFORE-DEFAULT 133*60
+#define XY_PROBE_SPEED (80*60)    // BEFORE-DEFAULT 133*60
 
 // Feedrate (mm/min) for the first approach when double-probing (MULTIPLE_PROBING == 2)
 #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z
@@ -1288,8 +1288,8 @@
 #if EITHER(AUTO_BED_LEVELING_LINEAR, AUTO_BED_LEVELING_BILINEAR)
 
   // Set the number of grid points per dimension.
-  #define GRID_MAX_POINTS_X 3      // BEFORE-DEFAULT 3
-  #define GRID_MAX_POINTS_Y 3     // BEFORE-DEFAULT GRID_MAX_POINTS_X
+  #define GRID_MAX_POINTS_X 4      // BEFORE-DEFAULT 3
+  #define GRID_MAX_POINTS_Y 4     // BEFORE-DEFAULT GRID_MAX_POINTS_X
 
   // Probe along the Y axis, advancing X after each column
   //#define PROBE_Y_FIRST
@@ -1298,7 +1298,7 @@
 
     // Beyond the probed grid, continue the implied tilt?
     // Default is to maintain the height of the nearest edge.
-    //#define EXTRAPOLATE_BEYOND_GRID
+    #define EXTRAPOLATE_BEYOND_GRID       //BEFORE-DEFAULT COMMENTED
 
     //
     // Experimental Subdivision of the grid by Catmull-Rom method.
@@ -1478,7 +1478,7 @@
  *   M501 - Read settings from EEPROM. (i.e., Throw away unsaved changes)
  *   M502 - Revert settings to "factory" defaults. (Follow with M500 to init the EEPROM.)
  */
-//#define EEPROM_SETTINGS     // Persistent storage with M500 and M501
+#define EEPROM_SETTINGS     // Persistent storage with M500 and M501    // BEFORE-DEFAULT COMMENTED (used for print counter)
 //#define DISABLE_M503        // Saves ~2700 bytes of PROGMEM. Disable for release!
 #define EEPROM_CHITCHAT       // Give feedback on EEPROM commands. Disable to save PROGMEM.
 #define EEPROM_BOOT_SILENT    // Keep M503 quiet and only give errors during first load
@@ -1644,7 +1644,7 @@
  *
  * View the current statistics with M78.
  */
-//#define PRINTCOUNTER
+#define PRINTCOUNTER    // BEFORE-DEFAULT COMMENTED
 
 /**
  * Password
