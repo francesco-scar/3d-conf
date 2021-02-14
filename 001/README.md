@@ -1,5 +1,5 @@
 ### Why this repo
-This repository contain the configurated Marlin firmware, configuration and other usefull stuff for the 3D printer it refers to (if you found the link to this page looking the prints at startup of the machine, you are in the right place).
+This repository contain the configurated Marlin firmware, configuration and other usefull stuff for the 3D printer it refers to (if you found the link to this page looking the prints at startup of the machine or in the "Credits and Info" section of the display menu, you are in the right place).
 
 
 ### Folders in this repo
