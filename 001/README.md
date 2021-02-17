@@ -10,3 +10,5 @@ You can restore those binary files uploading them on the board with the command 
 You can also find the dump of the EEPROM content that you can restore using [this](https://github.com/francesco-scar/arduino-EEPROM-backup_restore) program and the startup prints output of the values of the parameters of the printer before I uploaded the new firmware.
 
 - In the `BLTouch_probe_support` folder you can find the FreeCAD and STL files of the 3D printed support of the BLTousch probe installed on the extruder. If it breaks you can print it again using the STL file, or you can edit it using the FreeCAD project files.
+
+- The `Slic3r_config.ini` file is the [Slic3r](https://slic3r.org/) slicing configuration and parameter file used for this printer (and 1.75 mm filament).
