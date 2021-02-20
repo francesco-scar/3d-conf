@@ -15,4 +15,4 @@ You can also find the dump of the EEPROM content that you can restore using [thi
 
 
 ### Credits and License
-The big part of the work was made by the developer of the Marlin firmware, you can find its license and authors in the `Marlin-2.0.x_firmware_TMC2130` folder or in their repository. I have no credits for that work, I'm just a normal user who configured their software to use a specific printer, nothing else. Thank you.
+The big part of the work was made by the developers of the Marlin firmware, you can find its license and authors in the `Marlin-2.0.x_firmware_TMC2130` folder or in their repository. I have no credits for that work, I'm just a normal user who configured their software to use a specific printer, nothing else. Thank you.
