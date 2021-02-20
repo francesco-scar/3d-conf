@@ -12,3 +12,7 @@ You can also find the dump of the EEPROM content that you can restore using [thi
 - In the `BLTouch_probe_support` folder you can find the FreeCAD and STL files of the 3D printed support of the BLTousch probe installed on the extruder. If it breaks you can print it again using the STL file, or you can edit it using the FreeCAD project files.
 
 - The `Slic3r_config.ini` file is the [Slic3r](https://slic3r.org/) slicing configuration and parameter file used for this printer (and 1.75 mm filament).
+
+
+### Credits and License
+The big part of the work was made by the developer of the Marlin firmware, you can find its license and authors in the `Marlin-2.0.x_firmware_TMC2130` folder or in their repository. I have no credits for that work, I'm just a normal user who configured their software to use a specific printer, nothing else. Thank you.
