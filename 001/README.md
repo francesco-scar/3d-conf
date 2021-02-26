@@ -14,5 +14,9 @@ You can also find the dump of the EEPROM content that you can restore using [thi
 - The `Slic3r_config.ini` file is the [Slic3r](https://slic3r.org/) slicing configuration and parameter file used for this printer (and 1.75 mm filament).
 
 
+### Probe configuration
+For some reason if yoy reflash the board or change the probe offset you will need to change it using `M851 X35 Y-12 Z-2.4` command (with correct values) and then save cinfiguration to EEPROM with `M500`. In alternative you can change the same parameters and store settings to EEPROM using LCD menu oprions.
+
+
 ### Credits and License
 The big part of the work was made by the developers of the Marlin firmware, you can find its license and authors in the `Marlin-2.0.x_firmware_TMC2130` folder or in their repository. I have no credits for that work, I'm just a normal user who configured their software to use a specific printer, nothing else. Thank you.
