@@ -1,0 +1,4 @@
+Marlin-2.0.x_A4988_autoleveling/Marlin/src/inc/SanityCheck.h  COMMENTED LINE 1358 (WAS UNCOMMENTED)
+Marlin-2.0.x_A4988_autoleveling/Marlin/src/MarlinCore.cpp     ADDED pinMode A6 LINE 1231
+Marlin-2.0.x_A4988_autoleveling/Marlin/src/lcd/HD44780/ultralcd_HD44780.cpp ADDED writes at line 436 and others
+Marlin-2.0.x_A4988_manual_autoleveling_no_display/Marlin/src/gcode/bedlevel/abl/G29.cpp	COMMENTED LINE 186 (WAS UNCOMMENTED)
